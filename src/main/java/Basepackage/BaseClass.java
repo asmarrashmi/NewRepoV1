@@ -14,7 +14,7 @@ public class BaseClass {
 	public void intilization() throws IOException
 	{
 		//for file
-		FileInputStream fis = new FileInputStream("C:\\Users\\Lenovo\\eclipse-workspace\\Automation\\src\\main\\java\\Basepackage\\NewData.Properties");
+		FileInputStream fis = new FileInputStream(System.getProperty("User.dir")+"\\src\\main\\java\\Basepackage\\NewData.Properties");
 		//for read file
 		 Properties pros = new Properties();
 		 //read all data
