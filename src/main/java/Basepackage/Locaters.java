@@ -28,7 +28,7 @@ public  String ErroreMsgstr = "Please read and agree to the Master Subscription 
 	By Employee = By.xpath("//select[@name='CompanyEmployees']");
 	By checkbox = By.xpath("/html/body/div[5]/div[1]/div/div[6]/div[1]/div[2]/div/div/div[2]/div/div/div/form/div[5]/div/div/div[1]");
 	By startTrialbtn = By.xpath("//*[@name=\"start my free trial\"]");
-	By errormsg = By.xpath("//*[@id=\"SubscriptionAgreement-TjEa-errMsg\"]");
+	By errormsg = By.xpath("//*[@class='error-msg-block']");
 	//methods for returning weblement for every xpath
 	public WebElement username() 
 	{

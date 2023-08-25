@@ -6,7 +6,6 @@
       <class name="AllTestcase.Testcases">
         <methods>
           <include name="LocatrsAdd"/>
-          <include name="CloseApplication"/>
           <include name="OpenApplication"/>
         </methods>
       </class> <!-- AllTestcase.Testcases -->
